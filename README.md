@@ -4,7 +4,13 @@ VirtuButtonをDiscordと連携させるプラグインです。
 
 Discord関連のボタンとアクション、イベントが追加されます。
 
+ダウンロードはこちら↓
+
+[VB-DiscrodPlugin/releases](https://github.com/totoraj930/VB-DiscordPlugin/releases)
+
 ## 使い方
+
+導入方法の動画: [【VirtuButton】Discordプラグインの導入方法 - YouTube](https://youtu.be/f0aB_Der6-g?si=m5Z6InvP6KzOXxbA)
 
 ### インストール
 
