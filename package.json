@@ -1,0 +1,29 @@
+{
+  "name": "virtu-button-discord-plugin",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "build": "node build.mjs"
+  },
+  "author": "Reona Oshima (totoraj)",
+  "license": "MIT",
+  "description": "",
+  "private": true,
+  "peerDependencies": {
+    "electron": "^31.2.0"
+  },
+  "devDependencies": {
+    "@types/discord-rpc": "^4.0.8",
+    "esbuild": "0.23.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.1",
+    "discord-rpc": "^4.0.1",
+    "hono": "^4.5.8",
+    "zod": "^3.23.8"
+  }
+}
