@@ -1,4 +1,7 @@
-import { PluginInitProps, VirtuButtonPlugin } from '@/src-common/Plugin';
+import {
+  PluginInitProps,
+  VirtuButtonPlugin,
+} from '@virtu-button/common/Plugin';
 import fs from 'node:fs';
 import path from 'node:path';
 import { z } from 'zod';

@@ -1,14 +1,12 @@
-import { PluginAction } from '@/src-common/Plugin/Action';
 import {
+  COLORS,
   ControlButton,
   ControlButtonInstance,
-} from '@/src-common/Plugin/ControlButton';
-import {
+  PluginAction,
   PluginFields,
   SelectField,
   SelectOption,
-} from '@/src-common/Plugin/Field';
-import { COLORS } from '@/src-common/utils';
+} from '@virtu-button/common/Plugin';
 import { api, pluginInitProps } from '..';
 
 type ToggleDirection = 'on' | 'off' | 'toggle';

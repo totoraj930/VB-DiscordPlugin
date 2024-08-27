@@ -3,27 +3,39 @@
   "version": "0.0.1",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "format": "prettier --write .",
-    "build": "node build.mjs"
-  },
   "author": "Reona Oshima (totoraj)",
   "license": "MIT",
   "description": "",
   "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json --composite false",
+    "format": "prettier --write .",
+    "build": "pnpm format && node build.mjs",
+    "dev": "node build.mjs --dev"
+  },
+  "packageManager": "pnpm@9.9.0",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9",
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!"
+  },
   "peerDependencies": {
     "electron": "^31.2.0"
   },
   "devDependencies": {
     "@types/discord-rpc": "^4.0.8",
+    "@types/node": "^22.5.0",
+    "dotenv": "^16.4.5",
     "esbuild": "0.23.0",
     "prettier": "^3.3.3",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@hono/node-server": "^1.12.1",
+    "@hono/node-server": "^1.12.2",
+    "@virtu-button/common": "github:totoraj930/VirtuButton#dev&path:common",
     "discord-rpc": "^4.0.1",
-    "hono": "^4.5.8",
+    "hono": "^4.5.9",
     "zod": "^3.23.8"
   }
 }

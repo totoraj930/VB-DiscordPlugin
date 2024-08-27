@@ -1,4 +1,4 @@
-import { VBPluginError } from '@/src-common/Plugin/Error';
+import { VBPluginError } from '@virtu-button/common/Plugin';
 import DiscrodRPC, { Client } from 'discord-rpc';
 import fs from 'node:fs';
 import { z } from 'zod';

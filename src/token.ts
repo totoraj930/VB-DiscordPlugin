@@ -1,5 +1,5 @@
-import { VBPluginError } from '@/src-common/Plugin/Error';
 import { serve } from '@hono/node-server';
+import { VBPluginError } from '@virtu-button/common/Plugin';
 import { Client } from 'discord-rpc';
 import { Hono } from 'hono';
 import { AddressInfo, createServer } from 'net';

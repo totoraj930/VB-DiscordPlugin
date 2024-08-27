@@ -1,5 +1,8 @@
-import { PluginEvent } from '@/src-common/Plugin/Event';
-import { SelectField, SelectOption } from '@/src-common/Plugin/Field/type';
+import {
+  PluginEvent,
+  SelectField,
+  SelectOption,
+} from '@virtu-button/common/Plugin';
 import { pluginInitProps } from '.';
 
 type EventType = 'mic-on' | 'mic-off' | 'speaker-on' | 'speaker-off';
